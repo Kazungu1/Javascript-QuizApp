@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <section class="top">
+    <section id="top">
         <nav>
             <div class="header">
                 <h4> WELCOME TO ABC SCHOOL</h4>
@@ -18,52 +18,33 @@
     </section>
     <section id="quiz">
         <div class="quiz-form">
-            <form action="">
-                <div class="quiz_1">
-                    <p class="question">Whats the command to print javascript output to the screen</p>
-                    <div class="choices">
-                        <input type="radio" name="quiz-1">console.log()<br>
-                        <input type="radio" name="quiz-1">console.log<br>
-                        <input type="radio" name="quiz-1">print()<br>
-                        <input type="radio" name="quiz-1">console()<br>
-                    </div>                
+            <form action="" name="quiz" id="quiz">
+                <div>
+                    <p>1. What is the command to give output in javascript?</p>
+                    <p><input type="radio"name="question1" value="console.log">A.console.log</p>
+                    <p><input type="radio"name="question1" value="print">B. print</p>
+                    <p><input type="radio"name="question1" value="console">C. console</p>
                 </div>
-                <div class="quiz_2">
-                    <p class="question">Which among the following is not a javascript command</p>
-                    <div class="choices">
-                        <input type="radio" name="quiz-1">console.log()<br>
-                        <input type="radio" name="quiz-1">console.log<br>
-                        <input type="radio" name="quiz-1">print()<br>
-                        <input type="radio" name="quiz-1">console()<br>
-                    </div>
+                <div>
+                    <p>2. Which among the following is not supposed to be on the list</p>
+                    <p><input type="radio"name="question2" value="ceil">A.ceil</p>
+                    <p><input type="radio"name="question2" value="floor">B. floor</p>
+                    <p><input type="radio"name="question2" value="int">C. int</p>
                 </div>
-                <div class="quiz_3">
-                    <p class="question">What javascript command is used to check type of data of given input</p>
-                    <div class="choices">
-                        <input type="radio" name="quiz-1">console.log()<br>
-                        <input type="radio" name="quiz-1">console.log<br>
-                        <input type="radio" name="quiz-1">print()<br>
-                        <input type="radio" name="quiz-1">console()<br>
-                    </div>
+                <div>
+                    <p>3. How do we chack a data characteristcs</p>
+                    <p><input type="radio"name="question3" value="data-type">A.data-type</p>
+                    <p><input type="radio"name="question3" value="characteristcs">B. characteristcs</p>
+                    <p><input type="radio"name="question3" value="property">C. property</p>
                 </div>
-                <div class="quiz_4">
-                    <p class="question">Which among the following is incorrectly placed</p>
-                    <div class="choices">
-                        <input type="radio" name="quiz-1">console.log()<br>
-                        <input type="radio" name="quiz-1">console.log<br>
-                        <input type="radio" name="quiz-1">print()<br>
-                        <input type="radio" name="quiz-1">console()<br>
-                    </div>
+                <div>
+                    <p>4. Which among the following is not an OOP property in javascript</p>
+                    <p><input type="radio"name="question4" value="Encapsulation">A.Encapsulation</p>
+                    <p><input type="radio"name="question4" value="Inheritance">B. Inheritance</p>
+                    <p><input type="radio"name="question4" value="Object">C. Object</p>
                 </div>
-                <div class="quiz_5">
-                    <p class="question">What command is used for checking the length of a string in javascript</p>
-                    <div class="choices">
-                        <input type="radio" name="quiz-1">console.log()<br>
-                        <input type="radio" name="quiz-1">console.log<br>
-                        <input type="radio" name="quiz-1">print()<br>
-                        <input type="radio" name="quiz-1">console()<br>
-                    </div>
-                </div>
+        
+                <input type="button" value="Done" onclick="check()">
             </form>
         </div>
     </section>
