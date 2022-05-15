@@ -18,7 +18,7 @@ function check(){
     if(q4 == 'Object'){
         c+=20;
     };
-    document.write(c);
+    document.write("Your score is" +" "+  c);
 
  
 };
