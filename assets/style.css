@@ -16,3 +16,10 @@ body{
     margin: 30px;
     
 }
+#quiz > .quiz-form > form > .questions{
+    margin: 40px;
+}
+#quiz > .quiz-form > form > input{
+    border-radius: 10px;
+    size: 30px;
+}
