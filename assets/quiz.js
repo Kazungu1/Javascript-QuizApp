@@ -22,6 +22,7 @@ function check(){
         c+=20;
     };
     quiz.style.display="none";
+    result.textContent='${c}'; 
     var marks_percentage = (c/80)*100;
     document.write("Your score is" +" "+  marks_percentage + " "+ "%");
 
@@ -40,3 +41,4 @@ function check(){
 
  
 };
+ 
