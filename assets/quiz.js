@@ -12,13 +12,24 @@ function check(){
     if(q2 == 'int'){
         c+=20;
     };
-    if(q3 == 'property'){
+    if(q3 == 'data-type'){
         c+=20;
     };
     if(q4 == 'Object'){
         c+=20;
     };
     document.write("Your score is" +" "+  c);
+    function comments(){
+        if(c>80){
+            document.write("excellent");
+        }
+        else if(c>50 && c<80){
+            document.write(fair);
+        }
+        else{
+            document.write('poor');
+        }
+    };
 
  
 };
