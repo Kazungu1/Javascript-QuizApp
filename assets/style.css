@@ -16,10 +16,14 @@ body{
     margin: 30px;
     
 }
-#quiz > .quiz-form > form > .questions{
+#quiz > .quiz-form > form > .form_content{
     margin: 40px;
 }
 #quiz > .quiz-form > form > input{
+    background-color: whitesmoke;
     border-radius: 10px;
     size: 30px;
+    padding: 30px;
+    margin: 20px;
+    
 }

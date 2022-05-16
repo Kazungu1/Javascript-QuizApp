@@ -1,3 +1,4 @@
+// var c=0;
 function check(){
 
     var c =0;
@@ -5,7 +6,9 @@ function check(){
     var q2=document.quiz.question2.value;
     var q3=document.quiz.question3.value;
     var q4=document.quiz.question4.value;
-    var recult=document.getElementById('result');
+    var result=document.getElementById('result');
+    var quiz =document.getElementById("quiz");
+
     if(q1 == 'console.log'){
         c+=20;
     };
@@ -18,7 +21,22 @@ function check(){
     if(q4 == 'Object'){
         c+=20;
     };
-    document.write("Your score is" +" "+  c);
+    quiz.style.display="none";
+    var marks_percentage = (c/80)*100;
+    document.write("Your score is" +" "+  marks_percentage + " "+ "%");
+
+    if(c>80){
+        document.write("excellent perfomance");
+    }
+    else if(c>50 && c<80){
+        document.write("fair");
+    }
+    else document.write("poor");
+    // function comments(){
+    //     if (c>60){
+    //         document.write('excellent perfomance');
+    //     };
+    // };
 
  
 };
